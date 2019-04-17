@@ -1,0 +1,87 @@
+body {
+	background-color: orange;
+}
+
+.center {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000000;
+  position: ;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  border-right: 1px solid orange;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 113.9px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: orange;
+}
+
+.cities {
+  background-color: black;
+  color: white;
+  margin: 40px;
+  padding: 20px;
+  font-family: verdana;
+} 
+
+.cities1 {
+  background-color: black;
+  color: white;
+  margin: 30px;
+  padding: 20px;
+  height: 600px;
+} 
+
+table, th, td {
+  border: 1px solid orange;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 10px;
+}
+
+th {
+  text-align: left;
+}
+
+img { 
+  width: 50%; 
+}
+
+.name {
+	text-align: center;
+  font-family: verdana;
+  text-transform: uppercase; 
+  font-size: 50px;
+  text-shadow: 3px 2px gray;
+  font-weight: bold;
+}
+
